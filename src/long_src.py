@@ -1,32 +1,18 @@
 try:
 	import os
 	directoryListing = os.listdir("/media/")
-	if 'KINGSTON' in directoryListing:
-		king = '/media/KINGSTON/blocking/gen_data/'
-		king_gra = '/media/KINGSTON/blocking/graphs/'
-		king_jet = '/media/KINGSTON/blocking/data/pkl_files/jet_metric/'
-		king_dat = '/media/KINGSTON/blocking/data/pkl_files/blocking/'
-		king_sol = '/media/KINGSTON/blocking/data/pkl_files/solar_cycle/'
-		king_list = '/media/KINGSTON/blocking/list/'
-	elif 'jonathan' in directoryListing:
-		king = '/media/jonathan/KINGSTON/blocking/gen_data/'
-		king_gra = '/media/jonathan/KINGSTON/blocking/graphs/'
-		king_jet = '/media/jonathan/KINGSTON/blocking/data/pkl_files/jet_metric/'
-		king_dat = '/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/'
-		king_xfwnl = '/media/jonathan/KINGSTON/blocking/data/pkl_files/xfwnl/'
-		king_xfwnh = '/media/jonathan/KINGSTON/blocking/data/pkl_files/xfwnh/'
-		king_xhjjb = '/media/jonathan/KINGSTON/blocking/data/pkl_files/xhjjb/'
-		king_xhjjc = '/media/jonathan/KINGSTON/blocking/data/pkl_files/xhjjc/'
-		king_xhjjd = '/media/jonathan/KINGSTON/blocking/data/pkl_files/xhjjd/'
-		king_sol = '/media/jonathan/KINGSTON/blocking/data/pkl_files/solar_cycle/'
-		king_list = '/media/jonathan/KINGSTON/blocking/list/'
-	elif 'jonny' in directoryListing:
-		king = '/media/jonny/KINGSTON/blocking/gen_data/'
-		king_gra = '/media/jonny/KINGSTON/blocking/graphs/'
-		king_jet = '/media/jonny/KINGSTON/blocking/data/pkl_files/jet_metric/'
-		king_dat = '/media/jonny/KINGSTON/blocking/data/pkl_files/blocking/'
-		king_sol = '/media/jonny/KINGSTON/blocking/data/pkl_files/solar_cycle/'
-		king_list = '/media/jonny/KINGSTON/blocking/list/'
+	if '[insert directory signifyer here]' in directoryListing:
+		king = 
+		king_gra = 
+		king_jet = 
+		king_dat = 
+		king_xfwnl = 
+		king_xfwnh = 
+		king_xhjjb = 
+		king_xhjjc = 
+		king_xhjjd = 
+		king_sol = 
+		king_list = 
 
 except IOError as err:	print "Cannot import module: " + str(err)
 
