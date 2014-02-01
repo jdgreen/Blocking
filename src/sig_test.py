@@ -110,7 +110,7 @@ def monte(all_data,solar_data,diff,clim,trials=1000,cutoff=0.95):
 			if sig[lat][lon] < lower: opt[lat][lon] = 1
 	return opt.astype(int)
 
-def sig_test(list_dir='/media/jonathan/KINGSTON/blocking/gen_data/',data_dir='/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/',monte=True,sttest=False,tcrit=0,list_name='era40_blocking_thpv2.list',high=True,month='thpv2',trials=1000,cutoff=0.8):
+def sig_test(list_dir='',data_dir='',monte=True,sttest=False,tcrit=0,list_name='era40_blocking_thpv2.list',high=True,month='thpv2',trials=1000,cutoff=0.8):
 	try:
 		from open import stdata
 		from open import read_list
