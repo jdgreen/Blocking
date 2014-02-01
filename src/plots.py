@@ -14,7 +14,7 @@ def line(x,y,title,xlabel,ylabel,output):
 	fig.show()
 	fig.savefig(output)
 
-def test(output='/media/jonathan/KINGSTON/blocking'):
+def test(output=''):
 	alpha = 0.7
 	phi_ext = 2 * pi * 0.5
 
