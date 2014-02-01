@@ -34,7 +34,7 @@ b = np.array([[[0.005,0.01],[0.06,0.08]],[[0.79,0.85],[-0.98,-0.41]]])
 
 # ttest(a,b,4.30)
 
-def sig_test(list_dir='/media/jonathan/KINGSTON/blocking/gen_data/',data_dir='/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/',monte=True,sttest=False,tcrit=0,list_name='era40_blocking_thpv2.list',high=True,month='thpv2',trials=1000,cutoff=0.95):
+def sig_test(list_dir='',data_dir='',monte=True,sttest=False,tcrit=0,list_name='era40_blocking_thpv2.list',high=True,month='thpv2',trials=1000,cutoff=0.95):
 	try:
 		from open import stdata
 		from open import read_list
@@ -130,11 +130,3 @@ def sig_test(list_dir='/media/jonathan/KINGSTON/blocking/gen_data/',data_dir='/m
 
 	except ValueError as err:
 		print "Value Error: " + str(err)
-
-a = sig_test(list_dir='/media/jonathan/KINGSTON/blocking/gen_data/',data_dir='/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/',monte=True,sttest=True,tcrit=1.75,list_name='era40_blocking_thpv2.list',high=False,month='thpv2',trials=1000,cutoff=0.90)
-# b = sig_test(list_dir='/media/jonathan/KINGSTON/blocking/gen_data/',data_dir='/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/',monte=True,sttest=False,tcrit=0,list_name='era40_blocking_thpv2.list',high=True,month='thpv2',trials=1000,cutoff=0.90)
-print a
-print a.mean()
-# print ""
-# print b
-# print b.mean()
