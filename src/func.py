@@ -194,7 +194,7 @@ def diff(king=0,king_dat=0,output=0,arr=Falsehigh=True,type='thpv2',v='v',monte=
 		opt.append(Y)
 		# #read in data
 		from open import stdata
-		all_data = stdata('/media/jonathan/KINGSTON/blocking/gen_data/era40_blocking_thpv2.list',directory='/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/',monthly='thpv2')
+		all_data = stdata('[DIR]/era40_blocking_thpv2.list',directory='/media/jonathan/KINGSTON/blocking/data/pkl_files/blocking/',monthly='thpv2')
 		from solar import years
 		yrs = np.array(years()['SCmin'])-1957
 
