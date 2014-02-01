@@ -1,0 +1,9 @@
+MPhys Project: Natural variability of blocking
+
+This project attempts to distinguish a possible cause of jet stream anomalies through analysis in relation to the 11 year solar cycle.
+
+Note: Code currently being refined, readmes will come with each function in due course.
+
+Language: Python, IPython
+
+For significance testing, this project currently employs a Student's t-test function at varying cut-off confidence levels.
