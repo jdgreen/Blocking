@@ -1,18 +1,18 @@
 try:
 	import os
 	directoryListing = os.listdir("/media/")
-	if 'KINGSTON' in directoryListing:
-		king = '/media/KINGSTON/blocking/gen_data/'
-		king_gra = '/media/KINGSTON/blocking/graphs/'
-		king_dat = '/media/KINGSTON/blocking/data/pkl_files/jet_metric/'
-	elif 'jonathan' in directoryListing:
-		king = '/media/jonathan/KINGSTON/blocking/gen_data/'
-		king_gra = '/media/jonathan/KINGSTON/blocking/graphs/'
-		king_dat = '/media/jonathan/KINGSTON/blocking/data/pkl_files/jet_metric/'
-	elif 'jonny' in directoryListing:
-		king = '/media/jonny/KINGSTON/blocking/gen_data/'
-		king_gra = '/media/jonny/KINGSTON/blocking/graphs/'
-		king_dat = '/media/jonny/KINGSTON/blocking/data/pkl_files/jet_metric/'
+	if '[insert directory signifyer here]' in directoryListing:
+		king =
+		king_gra =
+		king_jet =
+		king_dat =
+		king_xfwnl =
+		king_xfwnh =
+		king_xhjjb =
+		king_xhjjc =
+		king_xhjjd =
+		king_sol =
+		king_list = 
 
 except IOError as err:	print "Cannot import module: " + str(err)
 
